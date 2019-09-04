@@ -5,7 +5,6 @@
 //  Created by 周经伟 on 2019/7/26.
 //  Copyright © 2019 iflytek. All rights reserved.
 //
-#import <iflytek-wakeup.h>
 #import "AudioInput.h"
 #import "EVSHeader.h"
 #import <AVFoundation/AVFoundation.h>
