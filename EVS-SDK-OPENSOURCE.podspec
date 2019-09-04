@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name        = "EVS-SDK-OPENSOURCE"
-s.version     = "1.0.5"
+s.version     = "1.0.7"
 s.authors     = { "jwzhou2" => "jwzhou2@iflytek.com" }
 s.homepage    = "https://github.com/packyzhou/EVS-SDK-OPENSOURCE"
 s.summary     = "EVS-SDK-OPENSOURCE."
