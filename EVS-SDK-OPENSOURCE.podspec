@@ -9,7 +9,6 @@ s.license     = { :type => "MIT", :file => "LICENSE" }
 
 s.source_files  = "Pod/Classes/**/*.{h,m,mm}"
 s.frameworks = 'UIKit', 'Foundation' , 'Security','CoreLocation'
-s.vendored_frameworks = ['FMDB.framework','SocketRocket.framework','MJExtension.framework','AFNetworking.framework','WebViewJavascriptBridge.framework','KeychainItemWrapper-Copy.framework']
 
 s.dependency 'FMDB'
 s.dependency 'SocketRocket'
@@ -19,7 +18,6 @@ s.dependency 'WebViewJavascriptBridge'
 s.dependency 'KeychainItemWrapper-Copy'
 
 s.pod_target_xcconfig = {
-'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
 'ONLY_ACTIVE_ARCH' => 'NO',
 'OTHER_LDFLAGS' => ['-ObjC'] ,
 'ENABLE_BITCODE' => 'NO'
