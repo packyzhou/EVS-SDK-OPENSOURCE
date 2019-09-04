@@ -7,10 +7,10 @@ s.summary     = "EVS-SDK-OPENSOURCE."
 s.source      = { :git => "https://github.com/packyzhou/EVS-SDK-OPENSOURCE.git",:tag => s.version}
 s.license     = { :type => "MIT", :file => "LICENSE" }
 
-s.source_files  = "Pod/Classes/**/*.{h}"
+s.source_files  = "Pod/Classes/**/*.{h,m}"
 s.frameworks = 'UIKit', 'Foundation' , 'Security','CoreLocation'
 s.libraries = 'sqlite3.0', 'stdc++.6.0.9','z','iconv'
-s.vendored_libraries = ['Pod/Classes/**/*.{a}']
+
 s.dependency 'FMDB'
 s.dependency 'SocketRocket'
 s.dependency 'MJExtension'
