@@ -1,5 +1,6 @@
 # EVS-SDK-OPENSOURCE
 
+```
 platform :ios, '10.1'
 workspace 'evs_sdk_ios.xcworkspace'
 inhibit_all_warnings!
@@ -17,3 +18,5 @@ pod 'WebViewJavascriptBridge'
 pod 'KeychainItemWrapper-Copy'
 pod 'EVS-SDK-OPENSOURCE','~> 1.0.0'
 end
+
+```
