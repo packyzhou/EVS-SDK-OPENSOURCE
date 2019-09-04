@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name        = "EVS-SDK-OPENSOURCE"
-s.version     = "1.0.4"
+s.version     = "1.0.5"
 s.authors     = { "jwzhou2" => "jwzhou2@iflytek.com" }
 s.homepage    = "https://github.com/packyzhou/EVS-SDK-OPENSOURCE"
 s.summary     = "EVS-SDK-OPENSOURCE."
@@ -9,7 +9,7 @@ s.license     = { :type => "MIT", :file => "LICENSE" }
 
 s.source_files  = "Pod/Classes/**/*.{h,m,mm}"
 s.frameworks = 'UIKit', 'Foundation' , 'Security','CoreLocation'
-s.libraries = 'sqlite3.0', 'stdc++.6.0.9','z','iconv'
+s.vendored_frameworks = ['FMDB.framework','SocketRocket.framework','MJExtension.framework','AFNetworking.framework','WebViewJavascriptBridge.framework','KeychainItemWrapper-Copy.framework']
 
 s.dependency 'FMDB'
 s.dependency 'SocketRocket'
