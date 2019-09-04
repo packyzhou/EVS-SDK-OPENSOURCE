@@ -19,12 +19,10 @@ s.dependency 'WebViewJavascriptBridge'
 s.dependency 'KeychainItemWrapper-Copy'
 
 s.pod_target_xcconfig = {
-'VALID_ARCHS[sdk=iphonesimulator*]' => '',
 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
 'ONLY_ACTIVE_ARCH' => 'NO',
 'OTHER_LDFLAGS' => ['-ObjC'] ,
-'ENABLE_BITCODE' => 'NO',
-'CLANG_CXX_LIBRARY' => ['libstdc++','libc++','libz']
+'ENABLE_BITCODE' => 'NO'
 }
 
 s.ios.deployment_target = '10.1'
