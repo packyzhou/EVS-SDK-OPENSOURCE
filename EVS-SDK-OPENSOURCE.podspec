@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name        = "EVS-SDK-OPENSOURCE"
-s.version     = "1.0.0"
+s.version     = "1.0.1"
 s.authors     = { "jwzhou2" => "jwzhou2@iflytek.com" }
 s.homepage    = "https://github.com/packyzhou/EVS-SDK-OPENSOURCE"
 s.summary     = "EVS-SDK-OPENSOURCE."
@@ -18,7 +18,7 @@ s.dependency 'AFNetworking'
 s.dependency 'WebViewJavascriptBridge'
 s.dependency 'KeychainItemWrapper-Copy'
 
-s.user_target_xcconfig = {
+s.pod_target_xcconfig = {
 'VALID_ARCHS[sdk=iphonesimulator*]' => '',
 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
 'ONLY_ACTIVE_ARCH' => 'NO',
