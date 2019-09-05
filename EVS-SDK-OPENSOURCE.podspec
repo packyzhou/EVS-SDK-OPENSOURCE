@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name        = "EVS-SDK-OPENSOURCE"
-s.version     = "1.0.7"
+s.version     = "1.0.8"
 s.authors     = { "jwzhou2" => "jwzhou2@iflytek.com" }
 s.homepage    = "https://github.com/packyzhou/EVS-SDK-OPENSOURCE"
 s.summary     = "EVS-SDK-OPENSOURCE."
@@ -18,7 +18,7 @@ s.dependency 'WebViewJavascriptBridge'
 s.dependency 'KeychainItemWrapper-Copy'
 
 s.pod_target_xcconfig = {
-'ONLY_ACTIVE_ARCH' => 'NO',
+'ONLY_ACTIVE_ARCH' => 'YES',
 'OTHER_LDFLAGS' => ['-ObjC'] ,
 'ENABLE_BITCODE' => 'NO'
 }
